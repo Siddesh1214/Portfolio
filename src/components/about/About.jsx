@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.scss";
-// import { TfiAngleRight } from "react-icons/tfi";
 import { easeIn, motion } from "framer-motion";
 
 function About() {
@@ -47,7 +46,6 @@ function About() {
 			opacity: 1,
 			transition: {
 				duration: 1,
-				// staggerChildren:0.1,
 				ease: "linear",
 				duration: 1,
 			},
@@ -99,18 +97,7 @@ function About() {
 					initial="initial"
 					whileInView="animate"
 				>
-					{/* <motion.p variants={textArea} initial='initial' whileInView='animate'>
-						Hi I'm Siddesh pursuing B.tech in Computer Science Engineering (Data
-						Science) from DJ. Sanghvi College of Engineering, Mumbai. I am
-						currently looking for opportunity as Web Develpment Intern.
-					</motion.p>
-					<motion.p variants={textArea} initial='initial' whileInView='animate'>
-						I am Passionate about web development, I thrive on its
-						dynamic nature. Eager to contribute innovative solutions and create
-						impactful user experiences, I'm committed to continuous learning,
-						aiming to harness technology for meaningful change.
-					</motion.p>
-					<motion.p variants={textArea} initial='initial' whileInView='animate'>A developer with knowledge of React.js, Node.js</motion.p> */}
+					
 					<motion.p variants={textArea} initial="initial" whileInView="animate">
 						Hey there! I'm Siddesh, a budding Computer Science Engineering
 						student specializing in Data Science at DJ. Sanghvi College of
@@ -132,15 +119,13 @@ function About() {
 					</motion.p>
 
 					<span variants={corner1} initial="initial" whileInView="animate">
-						{/* <TfiAngleRight className='svg1' size={100} /> */}
-						{/* <TfiAngleRight className='svg2' size={100} /> */}
+						
 						<motion.div
 							className="go1"
 							variants={corner1}
 							initial="initial"
 							whileInView="animate"
 						></motion.div>
-						{/* <motion.div className="go1" initial={{x:-50,y:-50,opacity:0}} whileInView={{x:0,y:0,opacity:1}} transition={{duration:1}}></motion.div> */}
 						<motion.div
 							className="go2"
 							variants={corner2}

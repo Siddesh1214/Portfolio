@@ -1,8 +1,6 @@
 import React from "react";
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
-import Test from "./Test";
-import { motion } from "framer-motion";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Works from "./components/works/Works";
