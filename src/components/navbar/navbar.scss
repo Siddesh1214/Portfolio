@@ -1,0 +1,57 @@
+@import '../../app.scss';
+
+
+
+.navbar{
+  height: 100px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+
+  @include mobile{
+  }
+
+
+  .wrapper{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: pink;
+    height: 100%;
+    
+    @include mobile{
+      position: relative;
+      // margin-inline: a
+
+    }
+
+    span{
+      font-size: 50px;
+      // border: 1px solid red;
+      // width: max-content;
+      // margin-left: 50px;
+
+      @include mobile{
+        position: absolute;
+        // right: 0;
+        width: max-content;
+        // min-width: 250px;
+        left: 40px;
+        // margin-left: 20px;
+      }
+    }
+
+    
+    .social{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      @include mobile{
+        display: none;
+      }
+    }
+  }
+}
