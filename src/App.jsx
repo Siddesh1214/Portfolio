@@ -8,8 +8,7 @@ import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Cursor from "./components/coursor/Cursor";
-import Footer from "./components/Footer/Footer";
-import NewHero from "./components/newHero/NewHero";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -19,7 +18,6 @@ function App() {
 			<section id="Homepage">
 				<Navbar></Navbar>
 				<Hero></Hero>
-				{/* <NewHero></NewHero> */}
 			</section>
 			<section>
 				<Parallax type={"services"}></Parallax>
@@ -27,7 +25,6 @@ function App() {
 			<section id="About">
 				<About></About>
 			</section>
-			{/* <About></About> */}
 			<section id="Services">
 				<Works></Works>
 			</section>
@@ -38,17 +35,11 @@ function App() {
 			<section id="Contact">
 				<Contact />
 			</section>
-			{/* <Contact></Contact> */}
 			<section className="footer">
 				<Footer />
 			</section>
 
-			{/* <Navbar></Navbar>
-      <Hero></Hero>
-      <section><Parallax type={'services'}></Parallax></section>
-      <About></About>
-      <Works></Works>
-      <section><Parallax type={'jobs'}></Parallax></section> */}
+			
 		</div>
 	);
 }
