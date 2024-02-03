@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.scss";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Comp from "../comp/Comp";
 
 function Hero() {
 	const textVariant = {
@@ -119,26 +120,24 @@ function Hero() {
 			>
 				Programmer Developer Cricket Design Develop
 			</motion.div>
-			{/* < motion.div initial={{ opacity: 0 }}
-        whileInView={{ opacity: 0.9 }}
-        className="imgContainer">
-				<motion.img  src="/hero.png" alt="" />
-			</motion.div> */}
 
-			<motion.div
+			{/* <motion.div
 				variants={imgAnim}
 				initial="initial"
 				animate="animate"
 				className="newImgCont"
 			>
-				{/* <img className="newImg"  src="/hero.png"  alt=""  /> */}
 				<motion.img
 					variants={imgAnim}
 					className="newImg"
 					src="/header-img.svg"
 					alt=""
 				/>
-			</motion.div>
+				<Comp></Comp>
+			</motion.div> */}
+			<div className="newImgCont">
+				<Comp></Comp>
+			</div>
 		</div>
 	);
 }

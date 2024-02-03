@@ -39,6 +39,7 @@ function Contact() {
 				variants={textVariants}
 				initial="intital"
 				whileInView="animate"
+				viewport={{ once: true }}
 			>
 				<motion.h1 variants={textVariants}>Let’s work together</motion.h1>
 				<motion.div className="item" variants={textVariants}>

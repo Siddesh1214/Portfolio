@@ -38,7 +38,7 @@ function Works() {
 		<div className="cont">
 			<div className="left">
 				{arr.map((elem, i) => (
-					<span>{elem}</span>
+					<span key={i}>{elem}</span>
 				))}
 			</div>
 			<div className="right">

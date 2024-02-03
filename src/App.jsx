@@ -9,6 +9,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Cursor from "./components/coursor/Cursor";
 import Footer from "./components/Footer/Footer";
+import NewHero from "./components/newHero/NewHero";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<section id="Homepage">
 				<Navbar></Navbar>
 				<Hero></Hero>
+				{/* <NewHero></NewHero> */}
 			</section>
 			<section>
 				<Parallax type={"services"}></Parallax>

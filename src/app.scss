@@ -50,8 +50,12 @@ section{
 .footer{
   height: 30vh;
   // max-height: max-content;
-  // scroll-snap-type: y mandatory;
   // scroll-snap-align: none;
+  @media (max-width: 738px) {
+    
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: none;
+  }
 
 }
 @mixin mobile {

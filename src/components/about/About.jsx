@@ -47,7 +47,6 @@ function About() {
 			transition: {
 				duration: 1,
 				ease: "linear",
-				duration: 1,
 			},
 		},
 	};
@@ -118,7 +117,7 @@ function About() {
 						let the coding adventure begin!
 					</motion.p>
 
-					<span variants={corner1} initial="initial" whileInView="animate">
+					<motion.span initial="initial" whileInView="animate">
 						
 						<motion.div
 							className="go1"
@@ -132,7 +131,7 @@ function About() {
 							initial="initial"
 							whileInView="animate"
 						></motion.div>
-					</span>
+					</motion.span>
 				</motion.div>
 			</div>
 		</div>
