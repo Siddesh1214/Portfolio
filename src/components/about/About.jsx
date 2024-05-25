@@ -67,7 +67,7 @@ function About() {
 	};
 
 	const showResume = () => {
-		const url = "/Siddesh_Resume.pdf";
+		const url = "https://drive.google.com/file/d/1WGLIG2IDpPzbZONyBASnI1bLU-z4D1Bp/view?usp=sharing";
 		window.open(url, "_blank");
 	};
 	return (
